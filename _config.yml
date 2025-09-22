@@ -22,6 +22,11 @@ github_username: crd
 minimal_mistakes_skin: dark
 search: true
 
+# https://dashboard.algolia.com/apps/5LOYKTDVJO/dashboard
+algolia:
+  application_id: '5LOYKTDVJO'
+  index_name: corydonnelly.com
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
