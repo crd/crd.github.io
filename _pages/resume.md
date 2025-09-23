@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Cory Donnelly's Resume"
 layout: single
 permalink: /resume/
 author_profile: false
@@ -51,7 +51,7 @@ Strategic Technology Executive who transforms organizational capabilities by ide
 
 * Led credit card technology teams to transform software engineering practices and modernize legacy infrastructure, while flawlessly delivering against business objectives  
 * Managed the Acquisitions Modeling Infrastructure credit modeling platform for loan decisioning and line assignments  
-* Co-founded Capital One Coders, a community outreach program for middle-school students aimed at growing computational literacy through 10-week, engineer-led classroom experiences, impacting over 11,000 children
+* Co-founded [Capital One Coders](https://www.capitalone.com/coders/), a community outreach program for middle-school students aimed at growing computational literacy through 10-week, engineer-led classroom experiences, impacting over 29,000 children
 
 *Senior Software Engineer, Principal Associate (Apr 2011 – Aug 2014\)*
 
