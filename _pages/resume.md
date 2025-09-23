@@ -1,3 +1,12 @@
+---
+title: "Resume"
+layout: single
+permalink: /resume/
+author_profile: false
+toc: false
+classes: wide
+---
+
 **CORY DONNELLY**  
 Buffalo, NY | 716-512-8795  | [cory.donnelly@gmail.com](mailto:cory.donnelly@gmail.com) | [https://www.linkedin.com/in/corydonnelly/](https://www.linkedin.com/in/corydonnelly/) 
 
