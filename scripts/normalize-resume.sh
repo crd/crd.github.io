@@ -9,7 +9,7 @@ echo "Normalizing markdown:"
 for f in "${TARGETS[@]}"; do
   if [[ -f "$f" ]]; then
     echo " - $f"
-    python3 tools/normalize_markdown.py "$f"
+    python3 tools/normalize_markdown.py --ensure-frontmatter "$f"
   else
     echo " ! Skipping missing file: $f"
   fi
