@@ -38,7 +38,7 @@ def normalize_text(s: str) -> str:
         text = re.sub(r"^([ \t]*)•[ \t]+", r"\1- ", text, flags=re.MULTILINE)
 
         # Trim trailing spaces
-        text = re.sub(r"[ \t]+$", "", text, flags=re.MULTILINE)
+        # text = re.sub(r"[ \t]+$", "", text, flags=re.MULTILINE)
 
         # Collapse 3+ blank lines -> 1 blank line
         text = re.sub(r"\n{3,}", "\n\n", text)
