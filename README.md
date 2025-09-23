@@ -1,27 +1,82 @@
-# Minimal Mistakes remote theme starter
+# corydonnelly.com
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal site + blog built with Jekyll using the Minimal Mistakes theme (remote theme starter).
 
-Contains basic configuration to get you a site with:
+- Repo: https://github.com/crd/crd.github.io
+- Prod URL: https://corydonnelly.com
+- Credits: Theme by Michael Rose (mmistakes/minimal-mistakes). Site started from the Minimal Mistakes remote theme starter.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Configuration (quick)
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- `_config.yml` controls site metadata, theme options, nav defaults, etc.
+- Minimal Mistakes config guide: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+- Custom domain is set via CNAME (repo root). Enforce HTTPS in Pages settings.
+- GitHub Pages + Jekyll basics: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
 
+## Prereqs
+
+- Ruby (via rbenv or system) + Bundler.
+- Clone the repo and install gems:
+
+bundle install
+
+## Local develop
+
+bundle exec jekyll serve --livereload
+# open http://127.0.0.1:4000
+
+(Note) If you edit `_config.yml`, restart `jekyll serve`.
+
+## Build & deploy
+
+This repo is built and served by GitHub Pages. Push to the default branch to publish.
+
+- GitHub Pages overview: https://pages.github.com/
+- About GitHub Pages + Jekyll: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+- Enforce HTTPS: https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+
+## Dependencies (keeping current)
+
+# update locked gems (respecting Gemfile constraints)
+bundle update
+# then test locally
+bundle exec jekyll serve
+
+Minimal Mistakes install/upgrade docs:
+https://mmistakes.github.io/minimal-mistakes/docs/installation/
+
+## Resume (single source + print-ready)
+
+- Web page lives at: /_pages/resume.md
+- Normalize newly extracted Markdown and ensure front matter:
+
+# Normalize the current page in-place
+./scripts/normalize-resume.sh
+
+## Writing new articles
+
+- Minimal Mistakes “Working with Posts”:
+  https://mmistakes.github.io/minimal-mistakes/docs/posts/
+- Jekyll posts basics:
+  https://jekyllrb.com/docs/posts/
+- Typical new post:
+
+# create: _posts/2025-09-23-my-title.md
+cat > _posts/2025-09-23-my-title.md <<'MD'
 ---
+title: "My Title"
+layout: single
+author_profile: true
+read_time: true
+comments: false
+---
+Hello world.
+MD
 
-## Troubleshooting
+## Things to know
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+- /_data/navigation.yml controls the top nav (e.g., link to /resume/).
+- /_includes/head/custom.html can load custom CSS (e.g., assets/css/print-resume.css).
+- Restart `jekyll serve` after `_config.yml` changes (Jekyll doesn’t reload it live).
+- Minimal Mistakes quick-start:
+  https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
