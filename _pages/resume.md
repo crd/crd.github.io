@@ -1,5 +1,5 @@
 ---
-title: "Cory Donnelly's Resume"
+title: "Resume"
 layout: single
 permalink: /resume/
 author_profile: false
@@ -7,76 +7,81 @@ toc: false
 classes: wide
 ---
 
-**CORY DONNELLY**  
-Buffalo, NY | 716-512-8795  | [cory.donnelly@gmail.com](mailto:cory.donnelly@gmail.com) | [https://www.linkedin.com/in/corydonnelly/](https://www.linkedin.com/in/corydonnelly/) 
+**Cory Donnelly**  
+Buffalo, New York  
+716.512.8795  
+cory.donnelly@gmail.com | @linkedin.com/in/corydonnelly
 
----
+#### **Summary of Qualifications**
 
-**Professional Summary**
+Transformational Technology Executive with a proven record of building high-performing engineering organizations, modernizing enterprise platforms, and delivering digital solutions at scale for millions of customers. Expert in leading large cross-functional teams and multimillion-dollar budgets to drive innovation, resiliency, and cloud-native transformation. Recognized for SDLC excellence, developer enablement, quality engineering, API governance and strategy, digital conversions, and open source strategy, with a strong commitment to cultivating engineering culture, advancing STEM education, and driving community impact.
 
-Strategic Technology Executive who transforms organizational capabilities by identifying critical gaps and designing solutions that align engineering excellence with business imperatives. Recognized for envisioning and building systems that enable enterprise-scale growth, from creating M\&T Bank's Engineering Excellence organization to address top-10 bank ambitions and audit readiness, to launching the bank's first cloud-native startup. Combines strategic foresight with hands-on execution to architect solutions that balance innovation, compliance, and operational excellence while building cultures of continuous improvement and technical craftsmanship.
+**Functional Areas of Expertise:**  
+Strategic Vision & Organizational Design | Engineering Excellence & SDLC Transformation | Cloud-Native Architecture & Modernization (AWS, Azure, CI/CD, Serverless) | Open Source & Inner Source Governance | Talent Development & High-Performance Culture | Cross-Functional Leadership & Stakeholder Alignment | Risk Management & Compliance | Developer Experience (DevEx), Developer Enablement, & Developer Productivity | Platform Engineering | Digital Conversions & Customer Experience | Community Impact & STEM Advocacy
 
-**Professional Experience**
+#### 
 
-**M\&T Bank, Buffalo, NY \-** *Senior Vice President, Engineering Director of Engineering Excellence (Dec 2024 \- Present)*
+#### **Professional Experience**
 
-* Built and led the bank’s Engineering Excellence org (SDLC, Developer Enablement, Quality Engineering, API Governance and Strategy, Open Source) for the enterprise and its \~4 million customers  
-* Enterprise SDLC: Authored policy/standards, procedures, templates, and training; launched a “Path to Production” from ideation → productionization that made the compliant path the fastest  
-* Developer productivity & tooling: Standardized and integrated GitLab/Jira/Artifactory and paved-road CI/CD; introduced agentic AI through Gitlab Duo, introduced DORA/SPACE metrics  
-* Quality & reliability: Established Enterprise QE (performance, test automation, test data management / obfuscation) and created consistency in test strategy and test plans across the enterprise  
-* API governance: Implemented versioning, lifecycle, tagging, and cataloging practices to improve integration speed and consistency across teams  
-* Open Source Office: Launched Free and Open Source Software (FOSS) lifecycle governance (intake, licensing, vulnerability response, end-of-life decisioning) and InnerSource foundations to accelerate safe adoption  
-* Risk & controls: Closed key control gaps in system development life cycle and data handling and strengthened audit readiness
+M&T Bank										July 2019 — October 2025
 
-*Senior Vice President, Engineering Director of Digital Technology (May 2021 \- Dec 2024\)*
+**Senior Vice President, Engineering Director of Engineering Excellence** (December 2024 — October 2025)  
+Built and led the bank's Engineering Excellence organization, driving transformation across the system development life cycle (SDLC), developer experience, developer enablement, quality engineering, API governance and strategy, and open source strategy. Partnered across the enterprise to establish policies and standards, modernize development practices, improve reliability, and accelerate delivery for \~4 million customers while ensuring regulatory compliance and audit readiness.
 
-* Owned Mobile and Online Banking applications for M\&T Bank, serving approximately 4 million users, with over 75% active within 90 days  
-* Managed a diverse team of 120 engineers with an annual budget of around $25 million  
-* Spearheaded M\&T Bank’s first-ever digital conversion of People’s United Bank customers during the acquisition  
-* Led an enduring cross-functional team of \~300 engineers and stakeholders in a multi-year effort to modernize mobile and online banking, enhancing resiliency and modernizing the tech stack for cloud migration. Key initiatives included migrating to an enterprise approach to authentication, externalizing money movement to a modular and extensible alternative, and consolidating contact center tooling
+* Designed and implemented a "Path to Production" framework that streamlined the SDLC from ideation through deployment, making the compliant route the fastest and most efficient.  
+* Improved developer productivity and consistency by standardizing GitLab, Jira, Artifactory, and CI/CD practices, and introducing DORA/SPACE metrics and AI-powered development assistance.  
+* Elevated software quality and reliability by building an enterprise-wide Quality Engineering function, advancing test automation, performance testing, and secure test data management practices.  
+* Established API governance and strategy, API marketplace, catalog, and development best practices.  
+* Strengthened risk management and controls by addressing SDLC and customer data handling gaps, ensuring ongoing audit readiness and regulatory compliance.
 
-*Vice President, Director of Engineering (Jul 2019 \- May 2021\)*
+**Senior Vice President, Engineering Director of Digital Technology** (May 2021 — December 2024)  
+Owned and led Mobile and Online Banking platforms, supporting \~4 million customers and driving digital adoption with more than 75% active users within 90 days. Directed a 120-person engineering team and a mid-eight-figure annual budget, while also leading large-scale, cross-functional initiatives to modernize core digital capabilities, strengthen resiliency, and prepare the technology stack for cloud migration.
 
-* Built a distributed high-functioning Engineering organization for M\&T Bank's first cloud-native incubated start-up, bringing  a customer-facing app from prototype to fully realized, productized solution: [Nota](https://www.trustnota.com/)
+* Oversaw Digital Tech's first-ever digital conversion during the People's United Bank acquisition, successfully migrating millions of customers to platforms (credentials, transaction history, bill pay, etc.)  
+* Guided Digital Tech teams through significant maturation, achieving a **157%** throughput increase and **98%** improvement in predictability in 2024\.  
+* Co-built and led a cross-functional Voyager Decommission Solution Train of 15 ARTs, 300+ engineers and stakeholders), instituting governance routines and delivering a multi-year modernization push of retail and business banking tech stacks; drove operating rigor (OKRs, operating routines) that increased overall 2024 throughput by **30%**, with feature completion rising **Q1 28% → Q2 45% → Q3 72% → Q4 87%**.  
+* Resolved high-severity enterprise cryptographic controls findings by aligning Tech Risk, Audit, Compliance, and senior business and tech leadership with no business feature delivery disruption.
 
-**Capital One, Richmond, VA \-** *Senior Manager (Jan 2018 – July 2019\)*
+**Cory Donnelly		  										Page 2**
 
-* Led teams driving innovation and modernization of cloud-based customer-facing platforms for consumer and small business credit card accounts, overseeing product development, operational services delivery, and platform management through Agile methodologies  
-* Coordinated a cross-organizational effort to convert millions of tokenized customer tax IDs across 35 platforms, mitigating risk associated with cloud vendor end-of-life activities  
-* Reduced operational costs of Identity Verification infrastructure by 98% through the adoption of on-demand serverless technologies  
-* Represented Capital One on the CodeRVA High School Advisory Council  
-* Drove enterprise-wide adoption of cloud-native technologies, including AWS API Gateway, Code Build, and X-Ray, enhancing development team capabilities
+* Delivered a Voyager-agnostic Login MVP and launched an end-to-end testing framework adopted Solution-wide for consistency and auditability.  
+* Led efforts to upgrade critical customer-facing infrastructure**,** removing critical-path obsolescence risk and de-risking larger modernization initiatives..  
+* Drove tech modernization and resiliency improvements, enabling cloud readiness and ensuring scalability of digital platforms for future growth.
 
-*Master Software Engineer, Manager (Aug 2014 – Jan 2018\)*
+**Vice President, Director of Engineering** (July 2019 — May 2021)  
+Built and led a distributed, high-performing engineering organization for M&T Bank's first cloud-native incubated start-up, Nota**.** Scaled the team and operating model to take the customer-facing application from initial prototype through full productization, delivering a secure, reliable, and market-ready solution that unlocked a new customer segment and revenue stream.
 
-* Led credit card technology teams to transform software engineering practices and modernize legacy infrastructure, while flawlessly delivering against business objectives  
-* Managed the Acquisitions Modeling Infrastructure credit modeling platform for loan decisioning and line assignments  
-* Co-founded [Capital One Coders](https://www.capitalone.com/coders/), a community outreach program for middle-school students aimed at growing computational literacy through 10-week, engineer-led classroom experiences, impacting over 29,000 children
+Capital One										April 2011 — July 2019
 
-*Senior Software Engineer, Principal Associate (Apr 2011 – Aug 2014\)*
+**Senior Manager** (January 2018 — July 2019)  
+Led multiple teams at Capital One focused on innovation and modernization of cloud-based customer-facing platforms** **for consumer and small business credit card accounts. Oversaw product development, operational service delivery, and platform management using Agile methodologies, while driving enterprise adoption of cloud-native technologies to improve scalability, efficiency, and customer experience.
 
-* Led a rapid-cycle development team for Capital One's flagship credit card application capture platform, providing technical leadership to a diverse team of onshore and offshore developers, business system analysts, and testers, ensuring an exceptional customer experience
+* Coordinated a large-scale, cross-organizational effort to convert millions of tokenized customer tax IDs across 35 platforms, mitigating AWS Hardware Security Module (HSM)  end-of-life risks and ensuring seamless continuity for our customers.  
+* Cut Customer Identity Verification infrastructure spend by 98% by implementing an on-demand, serverless architecture.
 
-**Core Competencies**
+**Master Software Engineer, Manager** (August 2014 — January 2018)  
+Led multiple teams to transform software engineering practices and modernize legacy infrastructure in support of the credit card business. Ran business critical customer facing platforms for risk modeling and scoring, loan decisioning, and line assignment, ensuring reliable delivery against business objectives. Also co-founded and scaled a flagship community outreach initiative to expand access to STEM education.
 
-* Strategic Vision & Organizational Design  
-* Engineering Excellence & Maturity Transformation  
-* Cloud-Native Architecture & Modernization  
-* Open Source Governance & Innovation  
-* Talent Development & High-Performance Culture  
-* Cross-Functional Leadership & Stakeholder Alignment  
-* Risk Management & Control Framework Design  
-* Developer Productivity & Platform Engineering  
-* Community Impact & STEM Advocacy
+* Co-founded Capital One Coders, a 10-week, engineer-led classroom program that has impacted over 29,000 middle-school students by growing computational literacy and interest in technology.
 
-**Education, Certifications, and Awards**
+**Senior Software Engineer, Principal Associate** (April 2011- August 2014)  
+Provided technical leadership for Capital One's flagship credit card application capture platform, guiding a rapid-cycle development team of onshore and offshore developers, business analysts, and testers. Ensured delivery of high-quality solutions that optimized the customer application experience while improving speed to market, efficiency, and reliability.
 
-* Microsoft Azure Certified: Azure Fundamentals, Buffalo, NY  
-* AWS Solutions Architect Associate Certification, Amazon Web Services, Richmond, VA  
-* Judge, 2020 Buffalo Emerging Technology Awards Showcase  
-* 2016 Richtech Gala People's Choice Award: Capital One Coders, Richmond Technology Council, Richmond, VA  
-* ICAgile Certified Professional in Agile Team Facilitation (ICP-ATF), ICAgile, Richmond, VA  
-* Business Process Management, Capital One, Richmond, VA  
-* Networking Technologies: TCP/IP Protocols, Concepts and Architecture, Internetwork Management, Nortel Networks / NETg, Toronto, ON, Canada  
-* Honours Bachelor of Science, Computer Science and Physics, University of Toronto, Toronto, ON, Canada
+#### **Education/Certifications**
 
+##### 
+
+University of Toronto  
+**Honours Bachelor of Science, Computer Science and Physics**
+
+**Microsoft Azure Fundamentals AZ-900,** Microsoft Azure  
+**AWS Certified Solutions Architect - Associate,** Amazon Web Services  
+**ICAgile Certified Professional in Agile Team Facilitation (ICP-ATF),** ICAgile
+
+#### **Awards and Community Support**
+
+##### 
+
+**2020 Buffalo Emerging Technology Awards Showcase,** Judge  
+**2017 CodeRVA High School Advisory Council,** Business Advisory Member  
+**2016 Richtech Gala People's Choice Award:** Capital One Coders, Richmond Technology Council
