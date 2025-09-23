@@ -1,0 +1,47 @@
+/* Print-optimized resume styles for Minimal Mistakes "single" pages */
+
+/* ---------- Screen-only print button (optional class) ---------- */
+.print-button { display: inline-block; margin: .5rem 0; }
+@media print { .print-button { display: none !important; } }
+
+/* ---------- Print rules ---------- */
+@media print {
+  /* Page setup */
+  @page { size: Letter; margin: 0.5in; }
+  html, body { background: #fff !important; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Remove site chrome */
+  .masthead, .page__footer, .sidebar, nav, .breadcrumbs, .page__meta,
+  .page__share, .pagination, .toc { display: none !important; }
+
+  /* Use full width; strip paddings/margins from wrappers */
+  .page, .page__inner-wrap, .page__content, #resume {
+    max-width: none !important;
+    width: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  /* Hide the page title "Resume" (we already render your name in the content) */
+  .page__title { display: none !important; }
+
+  /* Typography */
+  .page__content { font-size: 11pt; line-height: 1.35; color: #000; }
+  .page__content a { text-decoration: none; }
+
+  /* DO NOT append raw URLs after links in print */
+  a[href]:after, abbr[title]:after { content: none !important; }
+
+  /* Keep structure together to avoid big gaps and orphan headers */
+  h1, h2, h3 { break-after: avoid; break-inside: avoid; page-break-after: avoid; page-break-before: auto !important; }
+  p, ul, ol { break-inside: avoid; }
+  li { break-inside: avoid; }
+  /* Group common blocks so they don't split awkwardly */
+  .archive__item, article, section { break-inside: avoid; }
+
+  /* Remove excess top spacing on first element to pull content up */
+  .page__content > *:first-child { margin-top: 0 !important; }
+}
