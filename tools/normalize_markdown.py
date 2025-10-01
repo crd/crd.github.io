@@ -14,6 +14,42 @@ classes: wide\n\
 ---\n\n"""
 
 # Regexes
+# --- Page 2 and empty-heading cleanup ----------------------------------------
+# Rule 1: Remove any "Page 2" line (bold/plain) AND any number of empty lines
+# before and after it (i.e., delete the whole block with no blank line left).
+#
+# We support variants like:
+#   **Cory Donnelly           Page 2**
+#   Page 2
+#   ** Page 2 **
+# (with arbitrary spaces/tabs/NBSP and optional bold markers)
+PAGE2_BLOCK_RE = re.compile(
+    r"(?:[ \t" + NBSP + r"]*\n)*"                                # any leading blank lines
+    r"[ \t" + NBSP + r"]*(?:\*{0,2}[ \t" + NBSP + r"]*)?"        # optional opening ** and spaces
+    r"(?:Cory[ \t" + NBSP + r"]+Donnelly[^\n]*?)?"               # optional 'Cory Donnelly ...'
+    r"[Pp]age[ \t" + NBSP + r"]*2"                               # 'Page 2'
+    r"(?:[ \t" + NBSP + r"]*\*{0,2})?"                           # optional closing ** and spaces
+    r"[ \t" + NBSP + r"]*\n"                                     # end of line
+    r"(?:[ \t" + NBSP + r"]*\n)*"                                # any trailing blank lines
+)
+
+# Rule 2: Replace any lines that are SOLELY '####' or '#####' (with optional
+# spaces) plus any surrounding empty lines with a SINGLE empty line.
+EMPTY_H4_H5_BLOCK_RE = re.compile(
+    r"(?:[ \t" + NBSP + r"]*\n)*"                # any leading blank lines
+    r"[ \t" + NBSP + r"]*\#{4,5}[ \t" + NBSP + r"]*\n"  # #### or #####
+    r"(?:[ \t" + NBSP + r"]*\n)*"                # any trailing blank lines
+)
+
+def apply_page2_and_empty_heading_cleanup(text: str) -> str:
+    # Rule 1: drop Page 2 blocks entirely (no blank line left)
+    text = PAGE2_BLOCK_RE.sub("", text)
+
+    # Rule 2: collapse empty H4/H5 heading blocks to a single blank line
+    text = EMPTY_H4_H5_BLOCK_RE.sub("\n\n", text)
+
+    return text
+
 FENCE_RE = re.compile(r"(^```[^\n]*\n.*?\n```[ \t]*\n?)", re.DOTALL | re.MULTILINE)
 INLINE_CODE_RE = re.compile(r"(`[^`]*`)")
 FRONT_MATTER_RE = re.compile(r"(?s)^\s*---\n.*?\n---\n")
@@ -38,6 +74,8 @@ def _normalize_outside(text: str) -> str:
     text = re.sub(r"\\\(", "(", text)
     text = re.sub(r"\\\)", ")", text)
     text = re.sub(r"\\\-", "-", text)
+    text = re.sub(r"\\~", "~", text)
+    text = re.sub(r"\\.", ".", text)
 
     # Smart quotes -> straight
     text = text.replace("“", '"').replace("”", '"')
@@ -77,6 +115,7 @@ def normalize_body(text: str) -> str:
 def process_file(path: pathlib.Path, enforce_frontmatter: bool) -> int:
     original = path.read_text(encoding="utf-8")
     text = ensure_front_matter(original, enforce_frontmatter)
+    text = apply_page2_and_empty_heading_cleanup(text)
     text = normalize_body(text)
     if text != original:
         path.write_text(text, encoding="utf-8")
