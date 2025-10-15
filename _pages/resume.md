@@ -14,7 +14,7 @@ cory.donnelly@gmail.com | https://linkedin.com/in/corydonnelly
 
 #### **Summary of Qualifications**
 
-Transformational Technology Executive with a proven record of building high-performing engineering organizations, modernizing enterprise platforms, and delivering digital solutions at scale for millions of customers. Expert in leading large cross-functional teams and multimillion-dollar budgets to drive innovation, resiliency, and cloud-native transformation. Recognized for SDLC excellence, developer enablement, quality engineering, API governance and strategy, digital conversions, and open source strategy. Demonstrates a strong commitment to cultivating engineering culture, advancing STEM education, and driving community impact.
+Transformational Technology Executive with a proven record of building high-performing engineering organizations, modernizing enterprise platforms, and delivering digital solutions at scale for millions of customers. Expert in leading large cross-functional teams and multimillion-dollar budgets to drive innovation, resiliency, and cloud-native transformation. Recognized for SDLC excellence, developer enablement, quality engineering, API governance and strategy, digital conversions, and open source strategy. Demonstrates a strong commitment to cultivating engineering culture, advancing STEM education, and driving community impact as a founder of Capital One Coders (29k+ students, 150+ partners).
 
 **Functional Areas of Expertise:**  
 Strategic Vision & Organizational Design | Engineering Excellence & SDLC Transformation | Cloud-Native Architecture & Modernization | Open Source & Inner Source Governance | Talent Development & High-Performance Culture | Cross-Functional Leadership & Stakeholder Alignment | Risk Management & Compliance | Developer Experience (DevEx), Developer Enablement, & Developer Productivity | Platform Engineering | Digital Conversions & Customer Experience | Community Impact & STEM Advocacy
@@ -56,7 +56,7 @@ Led multiple teams at Capital One focused on innovation and modernization of clo
 **Master Software Engineer, Manager** (August 2014 — January 2018)  
 Led multiple teams to transform software engineering practices and modernize legacy infrastructure in support of the credit card business. Ran business critical customer-facing platforms for risk modeling and scoring, loan decisioning, and line assignment, ensuring reliable delivery against business objectives. Also co-founded and scaled a flagship community outreach initiative to expand access to STEM education.
 
-* Co-founded Capital One Coders, a 10-week, engineer-led classroom program that has impacted over 29,000 middle-school students by growing computational literacy and interest in technology.
+* Co-founded and scaled [Capital One Coders](https://www.capitalone.com/coders/), an engineer-led, 10-week middle-school program, reaching 29,000+ students across 13 communities with 150+ school/nonprofit partners and 130,000+ volunteer hours; co-designed MIT App Inventor curriculum and operating model; 90% of programming serves low-to-moderate-income communities.
 
 **Senior Software Engineer, Principal Associate** (April 2011 — August 2014)  
 Provided technical leadership for Capital One's flagship credit card application capture platform ICORE, guiding a rapid-cycle development team of onshore and offshore developers, business analysts, and testers. Ensured delivery of high-quality solutions that optimized the customer application experience while improving speed to market, efficiency, and reliability.
