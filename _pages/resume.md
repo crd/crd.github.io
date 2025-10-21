@@ -7,6 +7,11 @@ toc: false
 classes: wide
 ---
 
+<p>
+  <a href="{{ '/assets/resume/Cory Donnelly.pdf' | relative_url }}" download>
+    Download (PDF)</a>
+</p>
+
 **Cory Donnelly**  
 Buffalo, New York  
 716.512.8795  
