@@ -14,33 +14,33 @@ classes: wide
 
 **Cory Donnelly**  
 Buffalo, New York  
-716.512.8795  
-cory.donnelly@gmail.com | https://linkedin.com/in/corydonnelly
+(716) 512-8795  
+cory.donnelly@gmail.com | [https://linkedin.com/in/corydonnelly](https://linkedin.com/in/corydonnelly)
 
 #### **Summary of Qualifications**
 
-Transformational Technology Executive with a proven record of building high-performing engineering organizations, modernizing enterprise platforms, and delivering digital solutions at scale for millions of customers. Expert in leading large cross-functional teams and multimillion-dollar budgets to drive innovation, resiliency, and cloud-native transformation. Recognized for SDLC excellence, developer enablement, quality engineering, API governance and strategy, digital conversions, and open source strategy. Demonstrates a strong commitment to cultivating engineering culture, advancing STEM education, and driving community impact as a founder of Capital One Coders (29k+ students, 150+ school/nonprofit partners, 130k+ volunteer hours).
+Transformational Technology Executive with a proven record of building high-performing engineering organizations, modernizing enterprise platforms, and delivering at scale for millions of customers. Expert in leading large cross-functional teams and multimillion-dollar budgets to drive innovation, resiliency, and cloud-native transformation. Recognized for SDLC excellence, developer enablement, quality engineering, API governance and strategy, digital conversions, cloud migration strategy, and open source strategy. Demonstrates a strong commitment to cultivating engineering culture, advancing STEM education, and driving community impact as a founder of Capital One Coders (29k+ students, 150+ school/nonprofit partners, 130k+ volunteer hours).
 
 **Functional Areas of Expertise:**  
-Strategic Vision & Organizational Design | Engineering Excellence & SDLC Transformation | Cloud-Native Architecture & Modernization | Open Source & Inner Source Governance | Talent Development & High-Performance Culture | Cross-Functional Leadership & Stakeholder Alignment | Risk Management & Compliance | Developer Experience (DevEx), Developer Enablement, & Developer Productivity | Platform Engineering | Digital Conversions & Customer Experience | Community Impact & STEM Advocacy
+Strategic Vision & Organizational Design | Distributed Systems | Continuous Improvement | Engineering Excellence & SDLC Transformation | Cloud-Native Architecture & Modernization | Open Source Governance | Talent Development & High-Performance Culture | Cross-Functional Leadership & Stakeholder Alignment | Risk Management & Compliance | Developer Experience (DevEx), Developer Enablement, & Developer Productivity | Platform Engineering | Digital Conversions & Customer Experience | Community Impact & STEM Advocacy
 
 #### **Professional Experience**
 
 M&T Bank										July 2019 — October 2025
 
 **Senior Vice President, Engineering Director of Engineering Excellence** (December 2024 — October 2025)  
-Built and led the bank's Engineering Excellence organization, driving transformation across the system development life cycle (SDLC), developer experience, developer enablement, quality engineering, API governance and strategy, and open source strategy. Partnered to establish enterprise policies and standards, modernize software development practices, improve reliability, and accelerate delivery for ~4 million customers while ensuring audit and regulatory compliance. Led retail and business banking cloud migration strategy (500+ apps).
+Built and led the bank's Engineering Excellence organization, driving transformation across the system & Software Development Life Cycle (SDLC), developer experience, developer enablement, quality engineering, API governance and strategy, and Open Source strategy. Established enterprise policies and standards, modernized software development practices, improved reliability, and accelerated delivery for ~4 million customers while ensuring audit and regulatory compliance. Led retail and business banking cloud migration strategy (500+ apps).
 
 * Designed and implemented a "Path to Production" framework that formalized and streamlined the SDLC from ideation through deployment, making the compliant route the fastest and most efficient.  
 * Improved developer experience,  productivity, and consistency by integrating and standardizing GitLab, Jira, and Artifactory tooling, and introducing DORA/SPACE metrics and AI development assistance.  
 * Elevated software quality and reliability by establishing an enterprise-wide Quality Engineering function, advancing test automation, performance testing, and secure test data management practices.  
 * Instituted API governance and strategy, API marketplace, catalog, and development best practices.  
-* Strengthened risk management and controls by addressing SDLC and customer data handling gaps, ensuring ongoing audit readiness and regulatory compliance.
+* Strengthened risk management and controls by addressing SDLC and customer data handling gaps.
 
 **Senior Vice President, Engineering Director of Digital Technology** (May 2021 — December 2024)  
 Owned and led Mobile and Online Banking platforms, supporting ~4 million customers and driving digital adoption with more than 75% active users within 90 days. Directed a 120-person engineering team and a mid-eight-figure annual budget, while also leading large-scale, cross-functional initiatives to modernize core digital capabilities, strengthen resiliency, and prepare the technology stack for cloud migration.
 
-* Oversaw Digital Tech's first-ever digital conversion during the People's United Bank acquisition, migrating tens of millions of customer records (user credentials, transaction history, bill payments, payees, etc.)  
+* Oversaw Digital Tech's first-ever digital conversion during the People's United Bank acquisition, migrating tens of millions of customer records (user credentials, transaction histories, bill payments, payees, etc.)  
 * Guided Digital Tech teams through a significant maturation journey, achieving a **157%** throughput increase and **98%** improvement in predictability in 2024.  
 * Co-built and led a cross-functional modernization-focused Solution Train of 15 ARTs, 300+ engineers and stakeholders, executing a multi-year modernization push of retail and business banking tech stacks; drove operating rigor (OKRs, operating routines, governance) that increased Solution-wide throughput by **30%**, with feature completion rising **Q1 28% → Q2 45% → Q3 72% → Q4 87%** in 2024.  
 * Resolved high-severity enterprise cryptographic controls findings by aligning Tech Risk, Audit, Compliance, and senior business and tech leadership with zero disruption to delivery.* Launched an end-to-end testing framework adopted Solution-wide for consistency and auditability.  
@@ -71,8 +71,8 @@ Provided technical leadership for Capital One's flagship credit card application
 University of Toronto  
 **Honours Bachelor of Science, Computer Science and Physics**
 
-**Microsoft Azure Fundamentals AZ-900,** Microsoft Azure  
 **AWS Certified Solutions Architect - Associate,** Amazon Web Services  
+**Microsoft Azure Fundamentals AZ-900,** Microsoft Azure  
 **ICAgile Certified Professional in Agile Team Facilitation (ICP-ATF),** ICAgile
 
 #### **Awards and Community Support**

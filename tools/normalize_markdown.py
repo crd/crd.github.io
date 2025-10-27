@@ -13,6 +13,9 @@ toc: false\n\
 classes: wide\n\
 ---\n\n"""
 
+# Add a download link (PDF) right after the front matter
+FRONT_MATTER_TEMPLATE += "<p>\n  <a href=\"{{ '/assets/resume/Cory Donnelly.pdf' | relative_url }}\" download>\n    Download (PDF)</a>\n</p>\n\n"
+
 # Regexes
 # --- Page 2 and empty-heading cleanup ----------------------------------------
 # Rule 1: Remove any "Page 2" line (bold/plain) AND any number of empty lines

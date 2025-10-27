@@ -9,6 +9,8 @@ tags:
   - dependency management
 ---
 
+Note: As of 2025-06-03, Tach is no longer being maintained. There's a user fork named [dtach][tach-fork-site] that is seeing some activity but I'm unsure of its future.
+
 ### First Thoughts on Tach: A New Tool for Python Dependency Management
 
 ![Python Environment](https://imgs.xkcd.com/comics/python_environment.png)
@@ -46,6 +48,7 @@ Tach offers a new approach to Python dependency management by focusing on intern
 
 For more information visit the official [tach][tach-site] GitHub repository.
 
+[tach-fork-site]: https://detachhead.github.io/dtach/
 [tach-site]: https://github.com/gauge-sh/tach
 [pipenv-site]: https://pipenv.pypa.io
 [poetry-site]: https://python-poetry.org/
